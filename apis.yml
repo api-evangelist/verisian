@@ -1,7 +1,33 @@
 aid: verisian
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/verisian.png
 name: Verisian
-description: Verisian is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Verisian is an AI infrastructure platform for clinical trials, giving
+  pharmaceutical sponsors and CROs the information infrastructure required to
+  deploy AI across their experts and processes. The platform provides full study
+  traceability and automates statistical programming workflows: automating the
+  validation of SDTM and ADaM analysis datasets (turning time-consuming QC
+  double-programming into value-generating QA oversight), and generating complete
+  define-XML files and draft reviewer's guides that are guaranteed consistent with
+  the underlying analysis, so teams are submission-ready in hours. Verisian is
+  cloud native, compatible with any statistical computing environment (SCE),
+  storage, or compute, and integrates through simple file transfer with no complex
+  API integration required. It serves statistical programmers, statisticians, data
+  managers, medical writers, clinicians, and regulatory teams across in-house and
+  CRO-outsourced operating models; Bayer is a named customer. There is no public
+  developer API surface — the product is an enterprise application (app.verisian.com)
+  accessed after sales onboarding.
 url: https://raw.githubusercontent.com/api-evangelist/verisian/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +37,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Clinical Trials
+- Life Sciences
+- Artificial Intelligence
+- Pharmaceutical
+- Regulatory Submissions
+- Data Validation
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +55,37 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://verisian.com
+  url: https://verisian.com
+- type: Blog
+  url: https://verisian.com/blog
+- type: About
+  url: https://verisian.com/about-us
+- type: Team
+  url: https://verisian.com/team
+- type: Careers
+  url: https://verisian.com/careers
+- type: Community
+  url: https://verisian.com/community
+- type: Support
+  url: https://discord.com/invite/verisian
+- type: Events
+  url: https://verisian.com/events
+- type: Login
+  url: https://app.verisian.com/auth/login
+- type: TermsOfService
+  url: https://verisian.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://verisian.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/verisian/
+- type: Twitter
+  url: https://twitter.com/verisianHQ
+- type: YouTube
+  url: https://www.youtube.com/@verisianHQ
+- type: DomainSecurity
+  url: security/verisian-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
